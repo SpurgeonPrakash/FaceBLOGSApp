@@ -29,8 +29,8 @@ uititle.addEventListener("keyup", (e) => {
 });
 
 uidescription.addEventListener("keyup", (e) => {
-  e.target.style.height = "1px";
-  e.target.style.height = 25 + e.target.scrollHeight + "px";
+  // e.target.style.height = "1px";
+  // e.target.style.height = 25 + e.target.scrollHeight + "px";
   if (e.target.value === "") {
     e.target.placeholder = "Write your post content here..";
   }
